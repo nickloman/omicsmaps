@@ -118,7 +118,7 @@
             }
 
             function addcenter() {
-                window.location.replace("{% url add-centre %}" + "?lat=" + clickPos.lat() + "&long=" + clickPos.lng());
+                window.location.replace("{% url 'add-centre' %}" + "?lat=" + clickPos.lat() + "&long=" + clickPos.lng());
             }
 
             function findMarker(c) {
@@ -225,7 +225,7 @@
 
                 map.getContainer().appendChild(contextmenu);
 
-                GEvent.addListener(map,"singlerightclick",function(pixel,tile) {
+                GEvent.addListener(map,"rightclick",function(pixel,tile) {
                     clickedPixel = pixel;
                     var x=pixel.x;
                     var y=pixel.y;
@@ -261,7 +261,7 @@
                     clusterer.clearMarkers();
                 }
 
-                url = '{% url capabilities-json-data %}?cachebust&platform=';
+                url = '{% url 'capabilities-json-data' %}?cachebust&platform=';
                 $('.platformselector').each(function (i) {
                     if(this.checked) {
                         url = url + this.value + ',';
@@ -304,7 +304,7 @@
             }
 
             $(document).ready(function() {
-                $.getJSON('{% url json-data %}?cachebust', function(data) {
+                $.getJSON('{% url 'json-data' %}?cachebust', function(data) {
                     initialize(data);
                     $('#countrylist').change(function() {
                         set_map_centre(data['countries'][$(this).val()]);
@@ -319,7 +319,7 @@
     <body onunload="GUnload()">
         <div id="title">
         <div style="float: right; font-size: 18px; margin: 8px;">
-            <a href="{% url stats %}">Machine Statistics</a>
+            <a href="{% url 'stats' %}">Machine Statistics</a>
         </div>
         <h1>Next Generation Genomics: World Map of High-throughput Sequencers</h1>
         </div>
@@ -360,7 +360,7 @@
         </div>
         <noscript>
             {% for c in recent %}
-                <a href="{% url centre c.slug %}">{{ c }}</a>
+                <a href="{% url 'centre' c.slug %}">{{ c }}</a>
             {% endfor %}
         </noscript>
     </body>

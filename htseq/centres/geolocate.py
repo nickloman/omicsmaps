@@ -1,4 +1,4 @@
-import settings
+from django.conf import settings
 import json
 from urllib import urlopen
 

@@ -34,7 +34,7 @@ class Continent(Location):
         
 class Country(Location):
     country_code = models.TextField(max_length=2)
-    continent = models.ForeignKey(Continent)
+    continent = models.ForeignKey(Continent, null=True)
 
 class CentreBase(models.Model):
     name = models.CharField(max_length=100)
@@ -51,7 +51,7 @@ class CentreBase(models.Model):
     locality = models.CharField(max_length=100)
     country = models.ForeignKey(Country, null=True)
     capacity_summary = models.TextField(null=True)
-    date_created = models.DateTimeField(auto_now_add=True)
+    date_created = models.DateTimeField(auto_now_add=True, null=True)
     
     def __unicode__(self):
         return self.name

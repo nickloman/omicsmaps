@@ -3,7 +3,7 @@ from akismet import Akismet
 api = Akismet(agent='omicsmaps/1.0')
 print api.verify_key()
 
-import settings
+from django.conf import settings
 
 from centres.models import PendingCentreUpdate
 from centres.views import do_approve

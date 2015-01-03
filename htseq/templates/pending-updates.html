@@ -43,8 +43,8 @@
                     </td>
                 </tr>
         </table>
-        <input type="button" onclick="javascript:window.location.replace('{% url approve-pending u.id %}')" value="Approve">
-        <input type="button" onclick="javascript:window.location.replace('{% url delete-pending u.id %}')" value="Delete">
+        <input type="button" onclick="javascript:window.location.replace('{% url 'approve-pending' u.id %}')" value="Approve">
+        <input type="button" onclick="javascript:window.location.replace('{% url 'delete-pending' u.id %}')" value="Delete">
 
     {% endfor %}
     </ul>

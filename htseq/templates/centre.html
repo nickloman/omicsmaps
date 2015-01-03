@@ -21,10 +21,10 @@
     </head>
     <body onunload="GUnload()">
         <h1>Next Generation Genomics: World Map of High-throughput Sequencers</h1>
-        [<a href="{% url main %}">home</a>]
+        [<a href="{% url 'main' %}">home</a>]
         <h2>{{ c.name }}, {{ c.country }}</h2>
                  <p>
-                     Do you work at this centre? Why not <a href="{% url centre-update c.slug %}">update this centre's details</a>
+                     Do you work at this centre? Why not <a href="{% url 'centre-update' c.slug %}">update this centre's details</a>
                  </p>
                  <p id="url">
                      Visit this centre's website: <a href="{{ c.url }}">{{ c.url }}</a>
@@ -56,7 +56,7 @@
                  <p>This facility has the following capacity:
                  <ul>
                  {% for cap in capacity %}
-                     <li><a href="{% url platform p_slug=cap.platform.slug %}">{{ cap.platform.long_name }}</a>
+                     <li><a href="{% url 'platform' p_slug=cap.platform.slug %}">{{ cap.platform.long_name }}</a>
                      {% if cap.number_machines %}
                           ({{ cap.number_machines }} machine{{ cap.number_machines|pluralize}})
                      {% endif %}

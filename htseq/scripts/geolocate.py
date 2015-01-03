@@ -1,5 +1,5 @@
 from htseq.centres.models import Centre, CentreCapacity, Platform, Country
-import settings
+from django.conf import settings
 import json
 from urllib import urlopen
 import pprint

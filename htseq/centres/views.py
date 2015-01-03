@@ -8,8 +8,8 @@ from django.contrib.auth.decorators import user_passes_test
 from forms import CentreForm
 from geolocate import geolocate
 import json
-import settings
-import GeoIP
+from django.conf import settings
+import pygeoip
 
 from models import Centre, CentreCapacity, Platform, Country, copy_model_instance, PendingCentreUpdate, PendingCentreCapacity, get_fields
 
@@ -24,7 +24,7 @@ def hash_by_attribute(queryset, attribute):
     return hash, sorted(hash.keys())
 
 def lookup_country(request):
-    gi = GeoIP.new(GeoIP.GEOIP_MEMORY_CACHE)
+    gi = pygeoip.GeoIP('/Users/nick/scratch/omicsmaps/htseq/geoip/GeoIP.dat')
     country_code = gi.country_code_by_addr(request.META.get('REMOTE_ADDR') )
     if not country_code:
         return 'GB'
@@ -86,7 +86,7 @@ def get_centres_with_count(service_provider=False):
 from django.views.decorators.cache import cache_page
 @cache_page(60 * 15)
 def json_list(request):
-    response = HttpResponse(mimetype='application/json')
+    response = HttpResponse(content_type='application/json')
 
     json_object = {}
     # centres = Centre.objects.select_related('country')
@@ -105,7 +105,7 @@ def json_list(request):
     return response
 
 def capabilities_json(request):
-    response = HttpResponse(mimetype='application/json')
+    response = HttpResponse(content_type='application/json')
     id_list = request.GET['platform'].strip().split(',')
     id_list = [id for id in id_list if id != '']
 

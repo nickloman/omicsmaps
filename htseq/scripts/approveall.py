@@ -1,4 +1,4 @@
-import settings
+from django.conf import settings
 
 from centres.models import PendingCentreUpdate
 from centres.views import do_approve
