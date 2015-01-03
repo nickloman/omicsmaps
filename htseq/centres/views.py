@@ -24,7 +24,7 @@ def hash_by_attribute(queryset, attribute):
     return hash, sorted(hash.keys())
 
 def lookup_country(request):
-    gi = pygeoip.GeoIP('/Users/nick/scratch/omicsmaps/htseq/geoip/GeoIP.dat')
+    gi = pygeoip.GeoIP(settings.GEOIP_DATA)
     country_code = gi.country_code_by_addr(request.META.get('REMOTE_ADDR') )
     if not country_code:
         return 'GB'

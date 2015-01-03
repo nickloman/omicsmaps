@@ -117,6 +117,8 @@ CACHES = {
     }
 }
 
+GEOIP_DATA = ROOT_DIRECTORY + '/htseq/geoip/GeoIP.dat'
+
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
