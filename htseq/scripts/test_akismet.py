@@ -26,6 +26,11 @@ from centres.views import do_approve
     date_created = models.DateTimeField(auto_now_add=True)"""
 
 for updates in PendingCentreUpdate.objects.filter(processed=False).order_by('date_created'):
+	print updates.processed
+	if updates.url.find('facebook.com') != -1:
+		updates.delete()
+		continue
+
 	text = """
 %s
 %s
@@ -36,10 +41,9 @@ for updates in PendingCentreUpdate.objects.filter(processed=False).order_by('dat
 	print text
 	text = updates.notes
 	print " --- "
-	try:
-		if not api.comment_check(text, {'user_ip':'127.0.0.1', 'user_agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36'}):
-        		do_approve(updates.pk)
-		else:
-			print "RUBBISH"
-	except Exception, e:
-		pass
+	if not api.comment_check(text.encode('ascii', 'ignore'), {'user_ip':'127.0.0.1', 'user_agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36'}):
+		print "Approving"
+        	do_approve(updates.pk)
+	else:
+		print "Rubbish, deleting"
+		updates.delete()

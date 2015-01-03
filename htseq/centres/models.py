@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib import admin
 from django.template.defaultfilters import slugify
 from django.db.models import AutoField
+from django.core.exceptions import ObjectDoesNotExist
 
 def get_fields(obj):
     fields = dict([(f.name, getattr(obj, f.name))
@@ -79,10 +80,13 @@ class Centre(CentreBase):
         self.capacity_summary = ''
         cs = ''
         for cc in self.centrecapacity_set.all():
-            if cc.number_machines:
-                cs += " %d x " % (cc.number_machines)
-            cs += cc.platform.short_name
-            cs += ','
+            try:
+               if cc.number_machines:
+                  cs += " %d x " % (cc.number_machines)
+               cs += cc.platform.short_name
+               cs += ','
+            except ObjectDoesNotExist, e: 
+               print "Skipping as platform not exist"
         self.capacity_summary = cs.rstrip(',')
         super(Centre, self).save()
 
