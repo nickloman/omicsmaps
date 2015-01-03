@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>
+			High-throughput sequencer world map - {{ p.name }}
+		</title>
+	</head>
+	<body>
+			<p>&gt;&gt; <a href="{% url main %}">High-throughput sequencer world map</a></p>
+			<h1>{{ p.long_name }}</h1>
+
+			<p>Manufacturer website: <a href="{{ p.manufacturer_website }}">{{ p.manufacturer_website }}</a>
+
+			<h2>Centres with {{ p.short_name }} capacity</h2>
+			<ul>
+				{% for c in centres %}
+					<li><a href="{% url centre c.slug %}">{{ c.name }}</a>
+					{% if c.number_machines %}
+						({{ c.number_machines }})
+					{% endif %}
+				{% endfor %}
+			</ul>
+
+
+	</body>
+</html>

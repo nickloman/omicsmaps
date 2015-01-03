@@ -1,0 +1,61 @@
+#!/bin/bash
+# svndiff 1.0
+# usage: svndiff file
+
+if [[ ! -d .svn ]]
+then
+   echo ERROR: You are not working in an SVN directory.
+   exit 1
+fi
+
+rev="--revision HEAD"
+
+if [[ ! -n $1 ]]
+then
+   echo "Usage: svndiff [option] file"
+   echo "Options:"
+   echo "  -h         Diff with latest in repository (HEAD) - Default"
+   echo "  -b         Diff with what you had checked out (BASE)"
+   echo "  -c         Diff with COMMITTED, the version before BASE"
+   echo "  -p         Diff with PREV, the version before COMMITTED"
+   echo "  -r revnum  Diff with specified revision (specify integer)"
+   exit 1
+fi
+
+while getopts ":r:hbcp" Option
+do
+   case $Option in
+     h) rev="--revision HEAD";;
+     b) rev="--revision BASE";;
+     c) rev="--revision COMMITTED";;
+     p) rev="--revision PREV";;
+     r) rev="--revision $OPTARG";;
+     *) echo "Incorrect option specified. Use -h or -b or -r #";;
+    esac
+done
+shift $(($OPTIND -1))
+
+# Define graphical diff tool
+#
+
+# The geometry option used by Motif, Tcl and X based programs
+geometry="-geometry 1280x800+0+0"
+
+# The following is for Motif diff
+# -w: ignore white space
+dif="mgdiff -args -w"
+
+file=$1
+prev=${file}_PREV
+
+# Trap bash command signals
+# SIGINT   2
+# SIGQUIT  3
+# SIGTERM 15
+trap "rm -f $prev" 2 3 15
+svn cat $rev $file > $prev 2>/dev/null
+$dif $geometry $prev $file
+
+sleep 1
+rm -f $prev
+                

@@ -1,0 +1,31 @@
+            h1 {
+                font-family: Georgia, Garamond;
+                background-color: #cccccc;
+                margin: 5px;
+                font-size: 20px;
+            }
+            h2 {
+                font-family: Georgia, Garamond;
+                font-size: 16px;
+            }
+            p {
+                font-family: Arial;
+            }
+            ul {
+                font-family: Arial;
+            }
+            .content {
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+
+            .context {
+                font-family:Arial, sans-serif;
+                text-decoration:none;
+                color:#4444ff;
+                font-size:small;
+            }
+
+            a:hover div {
+                background:#eee;
+            }

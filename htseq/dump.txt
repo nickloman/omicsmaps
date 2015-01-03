@@ -1,0 +1,426 @@
+Cambridge Research Institute|0|4|United Kingdom|52.177195|0.136213
+Hubrecht Institute|||Netherlands|52.091742|5.161514
+Illumina (formerly Solexa HQ)|||United Kingdom|52.059668|0.23243
+Wellcome Trust Sanger Institute|1|43|United Kingdom|52.0789389512|0.183312892914
+Department of Biochemistry, University of Cambridge||1|United Kingdom|52.200874|0.119476
+Barts Genome Centre|||United Kingdom|51.521562|-0.101624
+Fasteris||4|Switzerland|46.170559|6.108398
+GATC Biotech|1|8|Germany|47.671066|9.154515
+Institue of PLant Biology, Zurich University|||Switzerland|47.358925|8.560061
+Centre for Genomic Research|1|5|United Kingdom|53.4071782933189|-2.96315431594849
+NCI Core Genotyping Facility||2|United States|39.1277964794|-77.1767234802
+Broad Institute|1|114|United States|42.365013|-71.088066
+CSHL||15|United States|40.8006210629|-73.4684085846
+McGill, Genome Quebec||3|Canada|45.504903|-73.575268
+BGI (formerly Beijing Genomics Institute)|1|86|China|22.59119|114.264035
+The Genome Center at Washington University|1|61|United States|38.6366512233|-90.2560329437
+University of Illinois||2|United States|40.106174|-88.218498
+Ohio State University|0|2|United States|39.9964543740497|-83.019905090332
+UC Davis|1|3|United States|38.507341|-121.764221
+Human Genome Sequencing Centre, Baylor College of Medicine|1|18|United States|29.7104940395|-95.3958320618
+Illumina|||United States|32.889678|-117.214508
+CNIO|0||Spain|40.4765702944112|-3.69418501853943
+Keygene|||Netherlands|51.976831|5.6462
+Centre for Genomic Regulation||3|Spain|41.3851807442909|2.19426155090332
+UMass Medical Center||2|United States|42.279324|-71.76525
+The Genome Analysis Centre||7|United Kingdom|52.621744|1.218946
+Babraham Institute||2|United Kingdom|52.133524|0.204132
+Genotypic|1||India|13.028673|77.574871
+Ocimumbio|||United States|39.15123|-77.231827
+Macrogen||13|South Korea|37.4776508291668|126.885159015656
+Australian Genome Research Facility|0|2|Australia|-27.499412|153.012664
+GeneWorks|1|2|Australia|-34.905572|138.570256
+MissionBio|1|3|Taiwan|25.0585636559618|121.611764431
+University of Otago|||New Zealand|-45.8691246069418|170.507769584656
+DKFZ|||Germany|49.421457|8.675187
+Functional Genomics Center Zurich|0|2|Switzerland|47.398001|8.544273
+Eurofins|||Germany|48.081749|11.994324
+LGC Agowa|||Germany|52.460403|13.527946
+Seq-It|||Germany|49.443017|7.758644
+Institute for Plant Genomics, Human Biotechnology and Bioenergy (BAYGEN)||1|Hungary|46.2445438139161|20.1661616563797
+ServiceXS|||Netherlands|52.166772|4.475899
+bmr-genomics|||Italy|45.413696|11.892915
+sistemas genomicos|||Spain|39.504041|-0.440483
+IGP Uppsala University|1|2|Sweden|59.845634|17.640309
+Microsynth|||Switzerland|47.406599|9.607029
+Source BioScience LifeSciences||4|United Kingdom|52.979|-1.2382
+NewGene||1|United Kingdom|54.967293|-1.62014
+University of York Technology Facility|||United Kingdom|53.960454|-1.092303
+The centre for applied genomics|0|6|Canada|43.65744|-79.385834
+Beckman Coulter Genomics (formerly Agencourt)|1|6|United States|42.5765964028269|-70.9157180786133
+Children’s Hospital Boston Molecular Genetics Core Facility|||United States|42.340592|-71.092873
+CoFactor Genomics, 2|0|4|United States|38.6354108954173|-90.2246618270874
+Cornell University Life Sciences Core Laboratories Center|||United States|42.448605|-76.47995
+Creative Genomics|||United States|40.918507|-73.063803
+EnGenCore at USC|1|1|United States|33.9971733558398|-81.0344696044922
+Eureka Genomics TX|||United States|29.752605|-95.37077
+Biopolymers facility at Harvard|1|2|United States|42.33819738|-71.1027431488
+MSU Research Technology Support Facility||2|United States|42.811522|-84.243164
+NCGR Genome Center|1|8|United States|35.636851388|-105.959433317
+Northwestern University|||United States|41.892694|-87.621202
+Prognosys|||United States|32.831135|-117.253647
+SeqWright|||United States|29.684474|-95.409737
+Tufts University Core Facility|1|1|United States|42.351472|-71.060214
+GenoSeq|0|1|United States|34.071005|-118.441072
+University of Florida|||United States|29.651361|-82.325363
+University of Nebraska Lincoln|||United States|40.830924|-96.662564
+deCODE Genetics|0|2|Iceland|64.135719003332|-21.9447612762451
+UPenn DNA Sequencing Facility|||United States|39.951694|-75.191116
+University of Utah|0|3|United States|40.765787|-111.842794
+Virginia Bioinformatics Institute|0|3|United States|37.220589418|-80.426402092
+Baseclear|||Netherlands|52.167457|4.474525
+Wellcome Trust Centre for Human Genetics||10|United Kingdom|51.755303|-1.208067
+UCSF|||United States|37.770036|-122.391772
+University of Exeter||1|United Kingdom|50.735124|-3.534636
+Sir Henry Wellcome Functional Genomics Facility (SHWFGF)|0|1|United Kingdom|55.8726143055|-4.29256439209
+Trinity College Dublin, Dublin|0|1|Ireland|53.3416613200651|-6.29422187805176
+University of the Western Cape|||South Africa|-33.905756|18.625946
+Plant Biotechnology Institute - National Research Council of Canada|0|3|Canada|52.131802|-106.624718
+Aalborg University|||Denmark|57.028774|9.953613
+CEA|||France|48.850258|2.373047
+UCD-Conway Institute|||Ireland|53.307493|-6.227188
+ICR|||United Kingdom|51.489774|-0.175095
+Gachon University of Medicine and Science|||South Korea|37.4446080248802|126.733474731445
+EMBL|||Germany|49.404271|8.696365
+MPI EVA||7|Germany|51.328895|12.370605
+Russian Research Center Kurchatov Institute|0|5|Russia|55.7955035132588|37.4764251708984
+Helsinki|||Finland|60.261617|25.048828
+Delaware Biotechnology Institute|1|1|United States|39.677904|-75.734918
+NYU Langone Medical Center|0||United States|40.739844|-73.974895
+KTH Gene Technology Sequencing Center|||Sweden|59.353737|18.058519
+University of Wisconsin Biotechnology Center Sequencing Facility|0|3|United States|43.075036|-89.411488
+LNCC - Laboratório Nacional de Computação Científica|||Brazil|-22.532854|-43.207855
+Rede Paraense de Genômica e Proteômica (RPGP)|0|1|Brazil|-1.47365770508442|-48.4579682350159
+Centro Avançado de Tecnologias em Genômica|0|1|Brazil|-23.566505|-46.7276
+Eureka genomics CA|||United States|38.006747|-122.259679
+UCSC Genome Sequencing Center|1|3|United States|36.995972|-122.054672
+Swedish Institute for Infectious Disease Control|||Sweden|59.357696|18.005905
+Scripps Research Institute|||United States|32.905749|-117.241373
+IKMB - Institute of Clinical Molecular Biology|||Germany|54.332547|10.1411
+Dana Farber Cancer Institute||1|United States|42.336976|-71.106606
+NIH Intramural Sequencing Center||6|United States|39.062382|-77.114325
+HudsonAlpha Institute for Biotechnology|0|11|United States|34.723555|-86.594238
+INMEGEN||1|Mexico|19.394068|-99.09668
+Ankara University|||Turkey|39.909736|32.871094
+Indiana University (Bloomington)|||United States|39.164141|-86.52832
+MRC hub Cambridge (EASIH)|0|5|United Kingdom|52.173721|0.138037
+University of Birmingham|0|2|United Kingdom|52.4507395825|-1.93441987038
+University of Leicester|0|2|United Kingdom|52.598377|-1.100464
+NICEM|||South Korea|37.457295|126.948459
+Expression Analysis|0|3|United States|35.929093|-78.903809
+IFOM-IEO Campus|0|1|Italy|45.442233|9.203217
+TAKARA BIO Inc. DragonGenomics Ctr.|1|4|Japan|34.990734|136.485032
+Fritz Lipmann Institute||3|Germany|50.904115|11.563797
+MRC Clinical Sciences Centre||3|United Kingdom|51.517663|-0.234833
+Max Planck Institute for Molecular Genetics||12|Germany|52.444253|13.273802
+UUSM - UNAM|1|1|Mexico|18.9829915642351|-99.2342421412468
+Translational Genomics Research Institute (TGen)||7|United States|33.452784|-112.06707
+Edge Bio|0|5|United States|39.143508|-77.188396
+Integragen|||France|48.618747|2.44993
+CRIBI - University of Padova|||Italy|45.408454|11.876564
+Yale University|||United States|41.307729|-72.92038
+Department of Human Genetics at Radboud University Nijmegen Medical Center|1|2|Netherlands|51.839172|5.866699
+Ramaciotti Centre for Gene Function Analysis||2|Australia|-33.917295192346|151.235218048096
+Riken||14|Japan|35.442771|139.647217
+Massachusetts General Hospital||1|United States|42.363491|-71.067638
+Ontario Institute for Cancer Research|1|15|Canada|43.659662114186|-79.3893957138062
+Genomic Medicine Institute (GMI) at Seoul National University College of Medicine||10|South Korea|37.568528|126.978607
+Institute for Molecular Bioscience University of Queensland||11|Australia|-27.496547226991|153.00968170166
+University of Freiburg Core Facility Genomics||1|Germany|48.007849|7.85677
+University of North Carolina - Chapel Hill||5|United States|35.905918|-79.046831
+Genome Institute of Singapore||11|Singapore|1.30256160077559|103.792562484741
+Tokyo University||2|Japan|35.46067|139.746094
+Montpellier GenomiX|0|2|France|43.6381871610746|3.84452819824219
+Kansas State Uni|||United States|39.181175|-96.591797
+Memorial Sloan-Kettering Cancer Center|0|3|United States|40.765084|-73.95663
+Helsinki - Biomedicum||2|Finland|60.190481|24.907165
+Genomnia srl||2|Italy|45.56791|9.028015
+UConn Health Center Translational Genomics Core||2|United States|41.7313549100564|-72.7988433837891
+Wageningen University||1|Netherlands|51.986446|5.664203
+Vanderbilt University Medical Center|0|1|United States|36.14206|-86.80241
+Miami Institute of Human Genomics||6|United States|25.792473|-80.211182
+NCMLS, dept. Molecular Biology|0|2|Netherlands|51.823896|5.865176
+National Institute for Infectious Diseases - INMI "L. Spallanzani" - Rome|0|1|Italy|41.902277|12.65625
+University of California, Riverside||1|United States|33.97141|-117.324715
+University of California, Berkeley||5|United States|37.875666|-122.244186
+DOE Joint Genome Institute|1|20|United States|37.931708|-122.02167
+Genepool - University of Edinburgh|0|4|United Kingdom|55.923299|-3.172469
+ARK-Genomics Roslin Institute||1|United Kingdom|55.863119|-3.154283
+Institute of Biotechnolgy - University of Helsinki||1|Finland|60.226457|25.01353
+Finnish DNA Microarray Centre||1|Finland|60.449218|22.293084
+University Medical Center Groningen, Netherlands||1|Netherlands|53.223186|6.574438
+University of Nottingham||2|United Kingdom|52.9394082472|-1.19709348626
+Princess Alexandra Hospital||1|Australia|-27.4993813209278|153.033021211886
+Genome Research Centre, Hong Kong University|0|2|Hong Kong|22.267230552|114.128346026
+Institute for Genome Sciences, University of Maryland|||United States|39.2886176083807|-76.6291698216082
+Warwick HRI||1|United Kingdom|52.3804079720515|-1.5612419842364
+Leiden University Medical Centre||4|Netherlands|52.1660415713|4.47502756171
+Wilhelm Johannsen Centre for Functional Genome Research||1|Denmark|55.6946643152934|12.5626516342163
+University of Aarhus||1|Denmark|56.1674958938226|10.2037968640798
+Australian National University|0|3|Australia|-35.2765763518|149.120411039
+Stowers Institute for Medical Research|0|1|United States|39.0371122872557|-94.575195729667
+Food and Environment Research Agency|0|1|United Kingdom|54.0182708504|-0.968882559682
+Institut Pharmacologie Moléculaire Cellulaire|0|1|France|43.6185783773287|7.05296516418457
+UCL Genomics|1|4|United Kingdom|51.5245584458|-0.133222102595
+TGML, TAGC Inserm UMR928|0|1|France|43.2336976787736|5.44132232666016
+IBMS, Academia Sinica|0|1|Taiwan|25.0370828103957|121.635475158691
+University of Bristol||1|United Kingdom|51.4566810699057|-2.603759765625
+Ottawa Hospital Research Institute||1|Canada|45.4019524393|-75.646031856
+Biodiversity Institute of Ontario||1|Canada|43.5337404796251|-80.2371883392334
+Purdue University||2|United States|40.4228404868|-86.9154596329
+University of Oklahoma Advanced Center for Genome Technology|1|1|United States|35.18377024563|-97.4392890930176
+BaseClear BV|0|1|Netherlands|52.1658774895021|4.46534156799316
+DNA Core Facility, University of Missouri|0|2|United States|38.9429384819575|-92.3231148719788
+University of Connecticut, Storrs||1|United States|41.8062534493143|-72.2532176971436
+Covance Genomics Laboratory|0|2|United States|47.6225952637231|-122.33757019043
+Genomics & Proteomics Core Facility, University of Pittsburgh|||United States|40.4383245630182|-79.9616718292236
+OMRF Next Gen Sequencing Core||1|United States|35.4734007735|-97.5035891528
+Burnham Institute for Biotechnology||1|United States|28.3962327116804|-81.2713623046875
+University of Texas Genomic Sequencing and Analysis Facility|0|2|United States|30.2883283251|-97.7372932434
+The Sainsbury Laboratory|0|1|United Kingdom|52.6222980300182|1.22276544570923
+Helmholtz-Zentrum für Infektionsforschung |1|2|Germany|52.2132868105961|10.5283355712891
+Georgia Genomics Facility|0|1|United States|33.9311119299|-83.3656311035
+Laboratory of Molecular Technology|0|2|United States|39.4264184311019|-77.4144380090002
+Emory GRA Genome Center|1|2|United States|33.7958217465029|-84.3232226371765
+Victor Chang Cardiac Research Institute|0|1|Australia|-33.8785260401077|151.221962571144
+TechDragon|0||Hong Kong|22.390083667028|114.207552194857
+Sequencing Facility|0|4|United States|39.1275379176|-77.1769080157
+Inqaba Biotec||1|South Africa|-25.7603197547|28.212890625
+Yang Ming U Genome Research Center|1|2|Taiwan|25.1110932361|121.541404724
+Integrated Core Facility for Functional Genomics|0|1|Taiwan|24.9767219253|121.53711319
+ETH Zürich, D-BSSE|0|2|Switzerland|47.5664063963|7.60206699371
+Ceinge - Biotecnologie Avanzate||1|Italy|40.8827320992603|14.2121393683192
+biocant||1|Portugal|40.3481751222391|-8.6120109516196
+Mayo Clinic|1|4|United States|44.0199006494649|-92.4666023254395
+Case Comprehensive Cancer Center High Throughput Sequencing Core Facility|0|1|United States|41.5045278539704|-81.6056728363037
+The Jackson Laboratory||1|United States|44.3644830691|-68.1967735291
+febit|1|2|Germany|49.4214932989|8.67445170879
+Duke IGSP Sequencing Core Facility|1|5|United States|35.998840783882|-78.9451789855957
+Ambry Genetics||3|United States|33.5934591835|-117.725200653
+GenXPro||1|Germany|50.1752|8.6315
+The Institute for Research in Immunology and Cancer (IRIC) ||1|Canada|45.5002410665752|-73.6153507232666
+Istanbul University|1|1|Turkey|41.017469619|28.933095932
+DSTL|0|1|United Kingdom|51.135079806008|-1.7014217376709
+Massey Genome Service||1|New Zealand|-40.3867624885|175.617957115
+INDEAR-CONICET|1|1|Argentina|-32.9699315831|-60.623588562
+Genomics Core Facility, Pennington Biomedical Research Center|0|1|United States|30.4033422997|-91.122751236
+ErasmusMC|1|1|Netherlands|51.9109201904|4.46989059448
+KACST|1|1|Saudi Arabia|24.6669863852163|46.69189453125
+Guilherme Oliveira|0|1|Brazil|-17.8065747273|-44.8308102787
+Ludwig Institute for Cancer Research|0|1|Brazil|-23.5689481445|-46.6422758102
+Beijing Institute of Genomics|1|15|China|39.9775147301887|116.387357711792
+Scientific and Technical Services of the University of Barcelona|0|1|Spain|41.3816719398259|2.11633640534274
+Children's Hospital of Philadelphia Nucleic Acid Core Facility|0|2|United States|39.9473681712|-75.1957726479
+Genome Sequencing Laboratory, New Mexico State University|0|1|United States|32.291776334712|-106.759643554688
+Penn State University, Genomics Core Facility|1|2|United States|40.7975510271|-77.8637123108
+University of Arizona Genetics Core||1|United States|32.2374882170876|-110.947151184082
+Li Ka Shing Institute of Health Sciences, CUHK|0|10|Hong Kong|22.3806745496|114.201872349
+Max Planck Institute for Developmental Biology|0|2|Germany|48.5342688051457|9.05488014221191
+University of Southern Denmark||1|Denmark|55.2861023248738|10.7539673522115
+Core Facilities for Biomedical Sciences (Campus), Chinese University of Hong Kong|0|1|Hong Kong|22.4189234357|114.208213091
+Center for Advanced Studies, Research and Development in Sardinia||3|Italy|38.991|8.937
+Norwegian High-Throughput Sequencing Centre (NSC)||4|Norway|59.9405729696|10.7209267622
+KPS Biotechnology & Healthcare Services Ltd. ||1|Hungary|47.5158094625|19.0090084076
+University of Oregon Highthroughput Sequencing Facility|1|1|United States|44.0560116957853|-123.0908203125
+Institute of Molecular Genetics AS CR|1|1|Czech Republic|50.0139994963176|14.4645953178406
+Unidad Universitaria de Secuenciación Masiva|1|1|Mexico|18.9829934242263|-99.2342617213399
+LANGEBIO-CINVESTAV||3|Mexico|20.7132676675|-101.320921897
+INSP||1|Mexico|18.9771851100162|-99.2461814582021
+DNAVision SA|1|5|Belgium|50.4730204101|4.46954727173
+UT Southwestern||1|United States|32.8190178233261|-96.8432807922363
+Baylor  University Medical Center at Dallas||1|United States|32.7875631534278|-96.7782211303711
+University of Michigan DNA Sequencing Core/Affymetrix and Microarray Core Facility|0|8|United States|42.2849150011|-83.7340410946
+Mount Sinai School of Medicine|0|2|United States|40.7898996853135|-73.9532661437988
+King Abdul Aziz University Hospital|0|1|Saudi Arabia|21.4931649439311|39.2486572265625
+Institute for Chemical Biology and Fundamental Medicine|0|1|Russia|54.8506543587759|83.1035470962524
+Estonian University for Life Sciences|0|1|Estonia|58.3932784300722|26.6883659362793
+USDA-ARS MidSouth Area|0|1|United States|33.4249944295972|-90.9109210968018
+Institut Curie|0|1|France|48.8439886271239|2.34442234039307
+University of Veterinary Medicine Vienna||1|Austria|48.2542999895|16.4317027332
+Genomic Sciences Laboratory, NC State University|0|2|United States|35.7811865984642|-78.6485824501142
+Genomics Sequencing Facility|0|3|Austria|48.2088420977|16.3771597445
+University of Graz, Austria||1|Austria|47.0585326693213|15.461687207353
+Dna Array Facility Lausanne||1|Switzerland|46.520248830968|6.57514572143555
+The MRC National Institute for Medical Research||1|United Kingdom|51.6178300250336|-0.219769477844238
+sequencys||1|United States|32.8430182654458|-117.279377817977
+Molecular Biology Core Facilities at Dana Farber Cancer Institute|0|1|United States|42.3464049793|-71.1018767953
+Oregon State University CGRB Core Lab|0|1|United States|44.5665705398296|-123.281965255737
+Harvard-Partners Center for Personalized Genomic Medicine||2|United States|42.3599392298|-71.0994386673
+IGBMC microarray and sequencing platform|0|1|France|48.5311570109767|7.7178955078125
+Institute of Genomics and Integrative Biology|1|2|India|28.634573642244|77.1348595619202
+Hospital Israelita Albert Einstein|0|1|Brazil|-23.599680434374|-46.7151546478272
+Moores UCSD Cancer Center|0|1|United States|32.8791546814741|-117.222576141357
+Scripps Translational Science Institute|0|3|United States|32.8992452913968|-117.240407466888
+Stan Nelson's Lab|1|3|United States|34.0673073766447|-118.444740772247
+Iowa State University DNA facility|0|1|United States|42.02506864632|-93.6474609375
+IMGM Laboratories GmbH||2|Germany|48.1123598049|11.4522600174
+University of Iowa DNA Facility|0|2|United States|41.6621081327219|-91.5458965301514
+NIH NIAID Rocky Mtn Labs|0|3|United States|46.2454008020001|-114.154815673828
+Academic Medical Center|1|2|Netherlands|52.2940022416294|4.95818674564362
+Uppsala SNP Technology Platform|1|2|Sweden|59.849578893423|17.6398801803589
+Canada's Michael Smith Genome Sciences Centre|1|25|Canada|49.2622035717|-123.117599487
+Institute for Systems Biology|0|2|United States|47.6488240358573|-122.342076301575
+OHSU Massively Parallel Sequencing Shared Resource|0|1|United States|45.4981204125|-122.671322823
+Dan Geschwind's Lab|0|1|United States|34.0702935422506|-118.444118499756
+NXTGNT|1|2|Belgium|51.0234734564244|3.72608184814453
+Helse Sør-Øst/University of Oslo Microarray Core Facility|0|1|Norway|59.9304712583536|10.6632345914841
+AIT Biotech||1|Singapore|1.29664080668761|103.791253566742
+Hannover Medical School||1|Germany|52.3843618953|9.80113506317
+Palteforme Genomique Genotoul||1|France|43.5280933347436|1.49478435516357
+Genoscreen||1|France|50.6281902413479|3.07376861572266
+Cincinnati Children's Hospital Medical Center||1|United States|39.1415776727527|-84.5018148422241
+Centre Jean Perrin||1|France|45.7591999901525|3.09423923492432
+CAREN - ECOBIO||1|France|48.1146520236|-1.64846420288
+Queensland Institute of Medical Research|0|1|Australia|-27.4446108214545|153.025131225586
+CEA - Institut de Génomique||3|France|48.6233497094182|2.4404239654541
+Virginia Commonwealth Univ||1|United States|37.3352243593|-77.431640625
+Faculte de Medecine de Marseille||1|France|43.2944497454626|5.40012359619141
+CDC, Atlanta GA USA|0|1|United States|33.9433599465788|-84.5068359375
+USDA/ARS U.S. Meat Animal Research Center|0|2|United States|40.5305017757|-98.1353759766
+Helixxa Importação Exportação e Serviços Genômicos Ltda|1|1|Brazil|-22.8511836591|-47.1500587463
+University of Geneva|0|1|Switzerland|46.1940617939062|6.15127086639404
+BioMicroCenter||1|United States|42.3606527298|-71.0882592201
+Center for Genomics and Personalized Medicine Department of Genetics Stanford University School of M||9|United States|37.4173452417|-122.150974274
+University of Minnesota - Biomedical Genomics Center|1|3|United States|44.9728135638|-93.2339286804
+Medical NeuroGenetics|0|1|United States|33.9479168983564|-84.364013671875
+Emory Genetics Laboratory|0|1|United States|33.7901866924266|-84.3038678169251
+Clark Atlanta University||1|United States|33.7503205807118|-84.4093322753906
+Greenwood Genetics Cneter|0|1|United States|34.1947654866|-82.1640014648
+Centro Nacional de Análisis Genómico (CNAG)|1|11|Spain|41.3820252035|2.11709976196
+Micromon High Throughput Sequencing Facility (Monash University)|0|1|Australia|-37.9106805959589|145.129292607307
+EMBL GeneCore|0|4|Germany|49.3837138034|8.71112823486
+Macrogen US||4|United States|39.0976282269|-77.2050261497
+IBEST DNA Sequencing Analysis Core||1|United States|46.7270361426162|-117.010316848755
+St. Jude Children's Research Hospital||8|United States|35.1534421998603|-90.0418424606323
+Genome sequencing core - University of Virginia||1|United States|38.0346391973185|-78.5046315193176
+CAGEF, University of Toronto|1|2|Canada|43.6613832715|-79.3996953964
+Whitehead institute||2|United States|42.3633163914593|-71.0893750190735
+Center for Human Genetics, UZLeuven||1|Belgium|50.8787095605121|4.67425346374512
+Plateforme Génome - Transcriptome de Bordeaux|0|1|France|44.8256823038|-0.610771179199
+Duke Center for Human Genome Variation Genomic Analysis Facility|0|17|United States|36.0060621619|-78.9355659485
+Matis ohf|1|1|Iceland|64.1299709300836|-21.7673063278198
+Institut Pasteur||1|France|48.8411642388897|2.30978965759277
+Fred Hutchinson Cancer Research Center||1|United States|47.6284740245717|-122.33038187027
+Biogemma||1|France|45.7885942873474|3.13058853149414
+DNA LandMarks Inc||1|Canada|45.303791598982|-73.2509672641754
+London Research Institute|0|1|United Kingdom|51.5157293389327|-0.116000175476074
+Waksman Institute|1|2|United States|40.5231174145|-74.4719839096
+Albert Einstein College of Medicine, Epigenomics Shared Facility|0|3|United States|40.8525140265|-73.8460636139
+University of Colorado, School of Medicine||2|United States|39.7444512088|-104.840533733
+Brown University, Genomics Core Facility||1|United States|41.829601336348|-71.4030647277832
+Centro de Genomica de Alto Desempenho do Distrito Federal|1|2|Brazil|-15.7420939883|-47.9034590721
+The Huck Institutes of the Life Sciences||1|United States|40.7989317485851|-77.8633260726929
+Vincent J. Coates Genomics Sequencing Laboratory|0|4|United States|37.8739810972775|-122.256084680557
+DNA Sequencing Center|1|1|United States|40.2462535543|-111.651306152
+Center for Environmental Biotechnology||1|United States|35.8861121267952|-83.8081741333008
+Molecular Genetics Core Facility, Harvard Catalyst||1|United States|42.3378325729195|-71.1055111885071
+Infectious Disease Research Center, Colorado State||1|United States|40.5705450046172|-105.079507827759
+High-throughput Genome Analysis Core (HGAC), University of Chicago||2|United States|41.7914887155738|-87.603349685669
+GenômicaDF|1|2|Brazil|-15.7427755313039|-47.903265953064
+Children's Cancer Institute of Australia|0|1|Australia|-33.9168678348413|151.23566865921
+University of Konstanz||2|Germany|47.6896591670065|9.18757438659668
+David H Murdock Research Institute|1|4|United States|35.4696179712|-80.5407714844
+Carlos Chagas Institute - ICC/FIOCRUZ|0|1|Brazil|-25.4943983753|-49.3311023712
+J. Craig Venter Institute||7|United States|39.0995515886|-77.1936535835
+W. M. Keck Ecological and Evolutionary Genetics Facility ||1|United States|41.5255436394685|-70.6740188598633
+Molecular and Computational Biology, University of Southern California||1|United States|34.0225378344355|-118.290030956268
+Faculty of Biosciences and Aquaculture, Høgskolen i Bodø, 8049 BODØ |0|1|Norway|67.2893714394509|14.5604038238525
+CEPH - CNG||1|France|48.6232929747761|2.44085311889648
+IBL||1|France|50.6278227245651|3.07389736175537
+Australian Genome Research Facility, Victoria|0|5|Australia|-37.7978144184|144.956059456
+Genome Technology Core, Vanderbilt Medical Center||1|United States|36.1394343327832|-86.8035793304443
+SAIC-Frederick||6|United States|39.4363918685127|-77.4348163604736
+House Ear Institute||1|United States|34.0628990350628|-118.274173736572
+KCL Genomics Centre|1|4|United Kingdom|51.5031329495|-0.0871181488037
+Biopolis SL||1|Spain|39.5158609017224|-0.422823429107666
+Bovine Functional Genomics Laboratory - USDA||1|United States|39.0236681065182|-76.923394203186
+Stanford School of Medicine||2|United States|37.4341130288742|-122.179470062256
+New Jersey Medical School||2|United States|40.7388844663|-74.1899013519
+Cancer Sciences Institute of Singapore||2|Singapore|1.29423816165473|103.780674934387
+Genetic Resources Core Facility (GRCF) - Johns Hopkins University||1|United States|39.2779788603967|-76.5781188011169
+NIDDK Genomics Core Laboratory|1|1|United States|39.0004427549885|-77.0987033843994
+Cancer Ohio State University||2|United States|39.9942844729|-83.0195188522
+Science for Life Laboratory Stockholm|1|7|Sweden|59.3548961249251|18.006591796875
+University of Rochester Functional Genomics Center|0|1|United States|43.0708942107|-77.6800346375
+Harvard Bauer Core|0|2|United States|42.3797239592569|-71.1152529716492
+yourgene bioscience|1|1|Taiwan|25.0074194530576|121.428408622742
+Source BioScience Dublin||1|Ireland|53.3502823398831|-6.27441644668579
+Genomic Department of the LS&E Infrastructure Unit, Technion Univ. Israel||1|Israel|32.7826563760296|35.0226974487305
+VIB MicroArray Facility|1|1|Belgium|50.8782627706607|4.67352390289307
+Notre Dame Genomics Core Facility|0|1|United States|41.7008703606976|-86.2331056594849
+UK-Advanced Genetic Technologies Center |0|1|United States|37.8921955472444|-84.4189453125
+Institut pour la Recherche sur le Cancer de Lille||1|France|50.6132558577015|3.03565979003906
+AgriLIFE Genomics and Bioinformatics Center|1|3|United States|30.6116735593|-96.3535952568
+Labindia Life Sciences||1|India|28.5067498950647|77.0882320404053
+The Ohio State University Comprehensive Cancer Center NASR-Illumina Core|0|2|United States|39.9965365659|-83.0193686485
+Necker Hospital|0|1|France|48.845203065095|2.31541156768799
+INRA Jouy en Josas||1|France|48.7637988869189|2.16821193695068
+CNRS Gif Sur Yvette||1|France|48.7061425981918|2.13040351867676
+New Mexico Genome Center||6|United States|35.6366072386122|-105.959218740463
+Institute for Translational Oncology and Immunology (TRON)|0|1|Germany|49.9939465308|8.25461626053
+University of Arkansas CCTR||1|United States|34.7505163914998|-92.3206257820129
+Arizona State University||1|United States|33.4198544698717|-111.928431987762
+Michigan State University RTSF||2|United States|42.7601211192678|-84.66064453125
+CRA-GPG|0|1|Italy|44.9273160616|9.89443302155
+Columbia University Medical Center|1|4|United States|40.839950433138|-73.938524723053
+Rockefeller University Genomics Resource Center||1|United States|40.762536083619|-73.9575576782227
+NGSC - Sidney Kimmel Comprehensive Cancer Center||2|United States|39.298173747353|-76.5942764282227
+Huntsman Cancer Institute Genomic Analysis Core Facility|0|2|United States|40.7733|-111.8351
+Taueret Laboratories|0|1|United States|40.7185422260867|-111.811852455139
+Centrillion Biosciences|0|1|United States|37.3890069889|-122.067707777
+Royal Brompton Hospital||1|United Kingdom|51.4900013267769|-0.171103477478027
+The CSIRO - AAHL |0|1|Australia|-38.1260496675446|144.338099956512
+KCL Genomics Laboratory||3|United Kingdom|51.5040946286974|-0.0879764556884766
+Université Libre de Bruxelles||1|Belgium|50.8134193327609|4.26501274108887
+Centro de Investigaciones Biomédicas de La Rioja|0|1|Spain|42.4512251176782|-2.42494493722916
+Cofactor Genomics||3|United States|38.6377239220779|-90.2248764038086
+Fondazione Filarete||1|Italy|45.4387548386422|9.20364618301392
+Central Microarray and Deep Sequencing Core Facility|0|1|Netherlands|52.3502215303286|4.82611477375031
+Sandor|1||India|17.2247582066|78.4423828125
+UCI Genomics High Throughput Facility|0|1|United States|33.6430271460972|-117.853045463562
+Xcelris Labs||2|India|24.2870268653764|72.7734375
+Albert Einstein College of Medicine, Genomics Core|0|1|United States|40.8515726512|-73.8456559181
+Nationwide Children's Hospital Biomedical Genomics Core||1|United States|39.9576487695489|-82.9852294921875
+Correlagen Diagnostics||1|United States|42.3847959630041|-71.2070274353027
+CIDR Johns Hopkins||1|United States|39.2988545589925|-76.5921950340271
+GIGA||2|Belgium|50.5732895408356|5.56742906570435
+Tri-ibiotech, inc.|1|1|Taiwan|25.067961557|121.62274003
+TGen North|0|1|United States|35.1378791196342|-111.674652099609
+Environmental Molecular Systems Laboratory|0|2|United States|46.317319260296|-119.280109405518
+Victorian Government Department of Primary Industries|0|2|Australia|-37.7260752859097|145.055730342865
+Baker IDI Heart and Diabetes Institute|0|1|Australia|-37.8431392128703|144.985198974609
+Centre for Molecular, Environmental, Genetic and Analytic Epidemiology|0|1|Australia|-37.8009087120631|144.963558912277
+Plant-Microbe Genomics Facility|0|1|United States|39.9963721820803|-83.0200982093811
+IGA||2|Italy|46.0732306254084|13.20556640625
+LGC Genomics||2|United Kingdom|51.4257849783569|-0.339803695678711
+Donnelly Sequencing Centre||1|Canada|43.6619110572607|-79.3888378143311
+National Chung Hsing University||1|Taiwan|24.181084707175|120.682067871094
+National Cheng Kung University|1|1|Taiwan|23.1676337208633|120.267333984375
+Korea Research Institute of Bioscience & Biotechnology (KRIBB)||1|South Korea|36.41177841992|127.364501953125
+高雄醫學大學||1|Taiwan|22.6468643343287|120.30930519104
+Genomics Research Center, Academia Sinica|1|4|Taiwan|25.042736233761|121.612558364868
+NTU Center of Genomic Medicine|1|4|Taiwan|25.0444547599618|121.519432067871
+Malaysia Genome Institute|1|1|Malaysia|2.95908710311|101.77734375
+Kang Chen Bio|1|1|China|31.1773339330415|121.408689022064
+Zhe Jiang University||1|China|30.2836182220929|120.121765136719
+Shanghai Biochip|1|7|China|31.1964193640332|121.610283851624
+BIOTEC||1|Thailand|14.0664340646787|100.617771148682
+Center for Genome Research|1|1|Italy|44.6400784433193|10.9305381774902
+Universiti Institut Teknologi Mara||1|Malaysia|3.07860330831145|101.498565673828
+Kiko tech Co., Ltd. Kobe Office|1|1|Japan|34.6587493157|135.217309892
+Institut de Biologie Intégrative et des Systèmes - U. Laval||2|Canada|46.7794324596934|-71.2784385681152
+University of Tartu||1|Estonia|58.3836958243574|26.7201447486877
+Center for Genomics and Transcriptomics, Tubingen||1|Germany|48.5011944355134|9.1365909576416
+Tierärztlichen Institut der Georg-August-Universität Göttingen ||1|Germany|51.5614781149771|9.95861291885376
+Western Carolina University||1|United States|35.311281843197|-83.1827688217163
+The Genomics and Microarray Core, University of Colorado||2|United States|39.7459360923917|-104.840426445007
+Genome Technology Access Center, GTAC||2|United States|38.6364500905422|-90.2530288696289
+Fundación Publica Galega de Medicina Xenómica||1|Spain|42.8690448062321|-8.56538772583008
+Max-Planck Institute of Immunobiology|0|1|Germany|48.0256102430276|7.85168409347534
+Mutation Analysis Facility, Karolinska Inst.||1|Sweden|59.2219332882015|17.935996055603
+Beijing Berry Genomics|1|2|China|39.962385549176|116.452159881592
+Institute of Marine Biology and Genetics, Hellenic Centre of Marine Research||1|Greece|35.3323523479545|25.2812576293945
+CeMM|0|1|Austria|48.2194402856506|16.349458694458
+University of Wales and Aberystwyth|0|2|United Kingdom|52.4169219570351|-4.0634822845459
+Genomics Platform University of Geneva||1|Switzerland|46.1938092857586|6.15121722221375
+LC Sciences|0|1|United States|29.67255154102|-95.4189848899841

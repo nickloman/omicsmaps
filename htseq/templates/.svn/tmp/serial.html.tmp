@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>HTS Serial Number Challenge</title>
+    </head>
+    <body>
+        <h1>The great high-throughput sequencing serial number challenge!</h1>
+        <img src="http://pathogenomics.bham.ac.uk/hts/img/panzer.jpg">
+        <img src="http://pathogenomics.bham.ac.uk/hts/img/454_GSFLX.jpg" height="300">
+        <p> 
+            During the Second World War, British military statisticians managed
+            to estimate the number of German Panzer tanks in circulation
+            according to the simple formula (M-1)(S+1)/S. Simply by having
+            a series of serial numbers and taking the maximum M and 
+            the sample size S they produced an accurate estimate (<a href="http://www.guardian.co.uk/world/2006/jul/20/secondworldwar.tvandradio">read more about this</a>).
+        </p>
+        <p>
+            Now in 2010 we want to try the same thing, but this time
+            to establish the <b>true</b> number of high-throughput sequencers 
+            shipped to laboratories world-wide. We will hopefully be able
+            to use the same principle, assuming the serial numbers are
+            sequential. In conjunction with the data from the
+            <a href="http://pathogenomics.bham.ac.uk/hts/">high-throughput sequencing map</a>
+            this should provide the most detailed snapshot of the sequencing
+            market so far.
+        </p>
+        <p>
+            If you want to take part (anonymously), simply enter your 
+            serial number and approximate installation date, as well
+            as your geographic location (state and country will do).
+            We'll check the submissions and post the results here.
+        </p>
+        <p>
+            <b><font size="+1">{{ n }} submissions received so far!</font></b>
+        </p>
+        <table>
+            <form method="POST" action="?">
+            {{ form.as_table }}
+            <tr>
+                <td><input type="submit" value=" Submit "></td>
+            </tr>
+            </form>
+        </table>
+        <p>
+            Please post comments on <a href="http://seqanswers.com/forums/showthread.php?t=3121">
+                this SeqAnswers thread</a>.
+        </p>
+        <p>
+            <b>Credits:</b> This idea came from an original thread on
+                <a href="http://seqanswers.com/forums/showthread.php?t=3121">SeqAnswers.com</a>.
+                KMCarr suggested to look at serial numbers and
+                <a href="http://network.nature.com/people/dan/profile">Dan Bolser</a> pointed
+                out the <a href="http://en.wikipedia.org/wiki/German_tank_problem">German tank problem</a>.
+        </p>
+    </body>
+</html>
