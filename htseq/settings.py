@@ -84,6 +84,8 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'htseq.urls'
 
+print ROOT_DIRECTORY
+
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
@@ -97,6 +99,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
+    'django.contrib.staticfiles',
     'htseq.centres',
     'htseq.stats',
     'htseq.serial',
@@ -136,7 +139,7 @@ STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'htseq/static'),
+    os.path.join(ROOT_DIRECTORY, 'static'),
 )
 
 STATICFILES_FINDERS = (
