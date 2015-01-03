@@ -104,7 +104,7 @@ INSTALLED_APPS = (
 
 GOOGLE_API_KEY = 'ABQIAAAAgGdBn7SxbtaVLrnyaw_DuRQjfajE9aXNLPmcFbHvJ1n2-MqamBS1tV-nD70aps4K1YDhzuSCg_X5Pg'
 
-STATIC_PATH = 'http://omicsmaps.com'
+STATIC_PATH = '/static'
 
 STATIC_VERSION = 12
 
