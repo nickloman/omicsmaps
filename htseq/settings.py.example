@@ -1,0 +1,127 @@
+# Django settings for htseq project.
+import sys
+import os
+
+DEBUG = False
+TEMPLATE_DEBUG = DEBUG
+SEND_BROKEN_LINKS_EMAIL=True
+EMAIL_HOST='smtp.bham.ac.uk'
+EMAIL_PORT=25
+
+ADMINS = (
+    # ('Your Name', 'your_email@domain.com'),
+    ('Nick Loman', 'n.j.loman@bham.ac.uk'),
+)
+
+# ROOT_DIRECTORY = 'c:/workspace/maps/htseq'
+# ROOT_DIRECTORY = '/home/nick/maps/htseq'
+ROOT_DIRECTORY = '/home/nick/maps/htseq'
+
+MANAGERS = ADMINS
+
+DATABASE_ENGINE = 'sqlite3'    # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+
+if os.getenv('DB_FROM_ARGV'):
+	DATABASE_NAME = sys.argv[1]
+else:
+	DATABASE_NAME = ROOT_DIRECTORY + '/db/htseq.sqlite' # Or path to database file if using sqlite3.
+# DATABASE_NAME = sys.argv[1]
+
+DATABASE_USER = ''             # Not used with sqlite3.
+DATABASE_PASSWORD = ''         # Not used with sqlite3.
+DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
+DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
+
+"""DATABASES = {
+	'default' : {
+		'NAME' : ROOT_DIRECTORY + '/db/htseq.sqlite',
+		'ENGINE' : 'django.db.backends.sqlite3',
+		'USER' : '',
+		'PASSWORD' : '',
+	}
+}
+"""
+
+# Local time zone for this installation. Choices can be found here:
+# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+# although not all choices may be available on all operating systems.
+# If running in a Windows environment this must be set to the same as your
+# system time zone.
+TIME_ZONE = 'Europe/London'
+
+# Language code for this installation. All choices can be found here:
+# http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'en-us'
+
+SITE_ID = 1
+
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+USE_I18N = True
+
+# Absolute path to the directory that holds media.
+# Example: "/home/media/media.lawrence.com/"
+MEDIA_ROOT = ''
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash if there is a path component (optional in other cases).
+# Examples: "http://media.lawrence.com", "http://example.com/media/"
+MEDIA_URL = ''
+
+# URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
+# trailing slash.
+# Examples: "http://foo.com/media/", "/media/".
+ADMIN_MEDIA_PREFIX = '/hts/media/'
+
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = CHANGEME
+
+# List of callables that know how to import templates from various sources.
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.load_template_source',
+    'django.template.loaders.app_directories.load_template_source',
+#     'django.template.loaders.eggs.load_template_source',
+)
+
+MIDDLEWARE_CLASSES = (
+    'django.middleware.gzip.GZipMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'htseq.middleware.NoCachePages',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+)
+
+ROOT_URLCONF = 'htseq.urls'
+
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    ROOT_DIRECTORY + '/templates',
+)
+
+INSTALLED_APPS = (
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.admin',
+    'htseq.centres',
+    'htseq.stats',
+    'htseq.serial',
+)
+
+GOOGLE_API_KEY = CHANGEME
+
+STATIC_PATH = 'http://omicsmaps.com'
+
+STATIC_VERSION = 12
+
+FORCE_SCRIPT_NAME = ''
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'omicsmaps'
+    }
+}
