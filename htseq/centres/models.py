@@ -38,7 +38,7 @@ class Country(Location):
 
 class CentreBase(models.Model):
     name = models.CharField(max_length=100)
-    slug = models.CharField(max_length=100, db_index=True)
+    slug = models.CharField(max_length=100, db_index=True, unique=True)
     url = models.URLField(max_length=255, help_text='The official website for this sequencing facility')
     notes = models.TextField(blank=True)
     lat = models.FloatField(help_text='Drag the map marker to change the position of this facility')

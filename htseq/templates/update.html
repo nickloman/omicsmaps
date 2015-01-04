@@ -86,6 +86,7 @@
         <h2>Update Centre Details</h3>
         {% endif %}
         <form method="POST" action="?">
+            {% csrf_token %}
             {% if not caps_mode %}
             <div id="map_region" style="float: right;">
                 <div id="map_canvas" style="width: 500px; height: 300px;"></div>

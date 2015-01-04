@@ -6,10 +6,8 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <link rel="stylesheet" type="text/css" href="{{static_path}}/css/all.css?{{ static_version }}">
         <script type="text/javascript" src="{{static_path}}/js/jquery.all.js?{{ static_version }}"></script>
-        <script type="text/javascript"
-            src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{ google_api_key }}&sensor=false"></script>
-        <script type="text/javascript" src="{{static_path}}/js/labeledmarker.js?{{ static_version }}"></script>
-        <script type="text/javascript" src="{{static_path}}/js/markerclusterer.js?{{ static_version }}"></script>
+        <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBFUP02DnryI7mm0LynneY7MiiUfzIoTKw&sensor=false"></script>
+        <script type="text/javascript" src="{{static_path}}/js/markerclusterer_packed.v3.js?{{ static_version }}"></script>
 
         <style type="text/css">
             .markerlabel {
@@ -74,21 +72,27 @@
                 top: 680px;
                 margin: 10px;
             }
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+map-canvas { height: 100% }
         </style>
         <script type="text/javascript">
             var map;
             var mcOptions = {gridSize: 20, maxZoom: 10};
-            var icon = new GIcon(G_DEFAULT_ICON);
+	    var icon;
+            /* var icon = new GIcon(G_DEFAULT_ICON); */
             var clickPos;
             var clusterer;
             var centres;
-
-            icon.image = "http://chart.apis.google.com/chart?cht=mm&chs=24x32&chco=FFFFFF,008CFF,000000&ext=.png";
+/*
+            icon.image = "http://chart.apis.google.com/chart?cht=mm&chs=24x32&chco=FFFFFF,008CFF,000000&ext=.png"; */
             /* icon.image = "{{static_path}}/img/marker.png"; */
             /* icon.image = 'http://uwmike.com/maps/manhattan/img/red-marker.png'; */
+/*
             icon.iconSize = new GSize(24, 32);
             icon.iconAnchor = new GPoint(16, 16);
-            icon.infoWindowAnchor = new GPoint(25, 7);
+            icon.infoWindowAnchor = new GPoint(25, 7); */
 
             function html_for_window(c) {
                 return "<div class='infowindow'> \
@@ -105,15 +109,28 @@
             }
 
             function createMarker(icon, d) {
-                var latlng = new GLatLng(d.lat, d.long);
+                var latlng = new google.maps.LatLng(d.lat, d.long);
+/*
                 var marker = new LabeledMarker(latlng, {icon: icon, "clickable": true, "labelText": d.n, "labelOffset": new GSize(-17, -14)});
                 marker.machine_count = d.n;
                 marker.centre = d;
-                var html = html_for_window(d);
+*/
+/*
 
                 GEvent.addListener(marker, 'click', function() {
                     marker.openInfoWindowHtml(html);
                 });
+*/
+		var marker = new google.maps.Marker({'position' : latlng});
+		marker.note = html_for_window(d);
+
+		google.maps.event.addListener(marker, "click",
+			function() {
+				infoWindow.setContent(this.note);
+				infoWindow.open(this.getMap(), this);
+			}
+		);
+
                 return marker;
             }
 
@@ -147,7 +164,7 @@
                 
                 marker.openInfoWindowHtml('hello there');
 */
-                map.openInfoWindowHtml(new GLatLng(c.lat, c.long), html_for_window(c));
+                map.openInfoWindowHtml(new google.maps.LatLng(c.lat, c.long), html_for_window(c));
             }
 
             function zoomTo(slug) {
@@ -164,7 +181,7 @@
 
             function zoomTo(slug) {
                 c = find_centre(slug);
-                p = new GLatLng(c.lat, c.long);
+                p = new google.maps.LatLng(c.lat, c.long);
                 map.setCenter(p);
                 map.setZoom(10);
             }
@@ -177,20 +194,20 @@
 
             function update_list() {
                 bounds = map.getBounds();
-
+/*
                 $('#centrelist').html('');
 
                 for(var i = 0; i < centres.length; i ++) {
-                    if(bounds.containsLatLng(new GLatLng(centres[i].lat, centres[i].long))) {
+                    if(bounds.contains(new google.maps.LatLng(centres[i].lat, centres[i].long))) {
                         $("<a>").attr('href', '#').attr("id", centres[i].slug).html(centres[i].name).bind('click', function() {
                             c = find_centre($(this).attr('id'));
                             centre_on(c);
                         }).appendTo("#centrelist");
                         $("#centrelist").append("<br/>").append(centres[i].loc);
                         $("<br>").appendTo("#centrelist");
-                        /* $('#centrelist').append('<a>') + centres[i].name); */
                     }
                 }
+*/
             }
 
             function add_map_data() {
@@ -203,50 +220,77 @@
                 update_list();
             }
 
+	function adSense(map) {
+		var adUnitDiv = document.createElement('div');
+		var adUnitOptions = {
+			format: google.maps.adsense.AdFormat.HALF_BANNER,
+			position: google.maps.ControlPosition.TOP,
+			backgroundColor: '#c4d4f3',
+			borderColor: '#e5ecf9',
+			titleColor: '#0000cc',
+			textColor: '#000000',
+			urlColor: '#009900',
+			map: map,
+			visible: true,
+			publisherId: ''
+		}
+		adUnit = new google.maps.adsense.AdUnit(adUnitDiv, adUnitOptions);
+	}
+
+            var infoWindow;
+
             function initialize(data) {
-                var mapOptions = { googleBarOptions : { style : "new" } };
+		infoWindow = new google.maps.InfoWindow;
+                var mapOptions = {
+                      zoom:2,
+                      scaleControl: true,
+                      overviewMapControl: true,
+                      overviewMapControlOptions:{opened:true}
+		} 
  
-                map = new GMap2(document.getElementById('map'), mapOptions);
+                map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-                map.setCenter(new GLatLng(24.5271348, 15.8203125), 2);
-                
-                map.addControl(new GLargeMapControl());
-                map.addControl(new GMapTypeControl());
+                map.setCenter(new google.maps.LatLng(24.5271348, 15.8203125), 2);
 
-                map.enableGoogleBar();
+		/*adSense(map);*/
 
                 var contextmenu = document.createElement("div");
-                contextmenu.style.visibility = "hidden";
                 contextmenu.style.background = "#ffffff";
                 contextmenu.style.border = "1px solid #8888FF";
                 contextmenu.style.margin = "5px";
 
                 contextmenu.innerHTML = '<a href="javascript:addcenter()"><div class="context">&nbsp;&nbsp;Add a new centre&nbsp;&nbsp;</div></a>';
 
-                map.getContainer().appendChild(contextmenu);
+/*
+                map.getDiv().appendChild(contextmenu);
+*/
 
-                GEvent.addListener(map,"rightclick",function(pixel,tile) {
+                google.maps.event.addListener(map,"rightclick",function(pixel,tile) {
                     clickedPixel = pixel;
                     var x=pixel.x;
                     var y=pixel.y;
+/*
                     clickPos = map.fromContainerPixelToLatLng(pixel);
                     if (x > map.getSize().width - 120) { x = map.getSize().width - 120 }
                     if (y > map.getSize().height - 100) { y = map.getSize().height - 100 }
-                    var pos = new GControlPosition(G_ANCHOR_TOP_LEFT, new GSize(x,y));  
-                    pos.apply(contextmenu);
+*/
+
+                    map.controls[google.maps.ControlPosition.TOP_LEFT].push(contextmenu);
                     contextmenu.style.visibility = "visible";
                 });
 
-                GEvent.addListener(map, "click", function() {
+                google.maps.event.addListener(map, "click", function() {
                     contextmenu.style.visibility = "hidden";
                 });
 
                 centres = data.centres;
                 add_map_data();
 
+/*
                 GEvent.addListener(map, "moveend", function () {
                     update_list();
                 });
+*/
             }
 
             function hello( name, loc ) {
@@ -276,7 +320,7 @@
             }
 
             function set_map_centre(c) {
-                bnds = new GLatLngBounds(new GLatLng(c.sw_lat, c.sw_long), new GLatLng(c.ne_lat, c.ne_long));
+                bnds = new google.maps.LatLngBounds(new google.maps.LatLng(c.sw_lat, c.sw_long), new google.maps.LatLng(c.ne_lat, c.ne_long));
                 map.setCenter(bnds.getCenter());
                 map.setZoom(map.getBoundsZoomLevel(bnds));
             }
@@ -316,52 +360,7 @@
             });
         </script>
     </head>
-    <body onunload="GUnload()">
-        <div id="title">
-        <div style="float: right; font-size: 18px; margin: 8px;">
-            <a href="{% url 'stats' %}">Machine Statistics</a>
-        </div>
-        <h1>Next Generation Genomics: World Map of High-throughput Sequencers</h1>
-        </div>
-        <div id="main">
-            {% regroup centres by country as country_list %}
-            <div id="control">
-                        <input type="checkbox" id="everything" disabled=1 checked> Show all platforms
-                        {% for p in platforms %}
-                            <input type="checkbox" class="platformselector" value="{{ p.id }}"> {{ p.short_name }}
-                        {% endfor %}
-                        <input type="checkbox" class="platformselector" value="service"> Service Provider
-                        <span style="float: right;">
-                        Jump to country
-                        <select id="countrylist">
-                            <option>--
-                            {% for country in country_list %}
-                            <option>{{country.grouper}}
-                            {% endfor %}
-                        </select>
-                        </span>
-            </div>
-            <div style="clear: both;"></div>
-            <div id="rightbar" style="width: 19%; border-left: 1px black dotted; padding-left: 5px; float: right; height: 600px; overflow: auto">
-                <input type="button" value=" Add New Facility " style="width: 100%; height: 40px; font-face: Georgia; font-size: 20px;"
-                    onClick="window.alert('To add a facility, find the location on the map and then right-click / shift-click at that position and select \'Add a new centre\'');">
-                <div id="centrelist">
-                </div>
-            </div>
-            <div id="map" style="margin-left: 5px; width: 80%; height: 600px"></div>
-            <div style="margin: 10px;">
-                <p>Recently added centres:
-                     {% for c in recent %}
-                     <a onClick="find_and_centre_on('{{ c.slug }}')" href="#">{{ c }}</a>{% if not forloop.last %}, {% endif %}
-                     {% endfor %}
-                </p>
-            </div>
-            {% include "footer.html" %}
-        </div>
-        <noscript>
-            {% for c in recent %}
-                <a href="{% url 'centre' c.slug %}">{{ c }}</a>
-            {% endfor %}
-        </noscript>
+    <body>
+            <div id="map" style="margin-left: 5px; width: 100%; height: 100%"></div>
     </body>
 </html>

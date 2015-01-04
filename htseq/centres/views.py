@@ -4,6 +4,7 @@ from django.core import serializers
 from django.forms.models import inlineformset_factory
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import user_passes_test
+from django.template import RequestContext
 
 from forms import CentreForm
 from geolocate import geolocate
@@ -189,7 +190,7 @@ def centre_update(request, c_slug):
     else:
         f = CentreForm(instance=pcu)
     params['form'] = f
-    return render_to_response('update.html', params)
+    return render_to_response('update.html', params, context_instance=RequestContext(request))
 
 def add_centre(request):
     params = standard_items(request)
@@ -216,7 +217,7 @@ def add_centre(request):
 
         f = CentreForm(instance=c)
     params['form'] = f
-    return render_to_response('update.html', params)
+    return render_to_response('update.html', params, context_instance=RequestContext(request))
 
 def update_capabilities(request, id):
     pcu = get_object_or_404(PendingCentreUpdate, pk=id)
@@ -230,8 +231,10 @@ def update_capabilities(request, id):
     CapacityFormSet = inlineformset_factory(PendingCentreUpdate, PendingCentreCapacity)
     if request.POST:
         formset = CapacityFormSet(request.POST, instance=pcu)
-
-        formset.save()
+        if formset.is_valid():
+            formset.save()
+        else:
+            print formset.errors
 
         from django.core.mail import mail_admins
         mail_admins('Sequencing map updated', 'Visit http://pathogenomics.bham.ac.uk/hts/admin/pending/', fail_silently=True)
@@ -241,7 +244,7 @@ def update_capabilities(request, id):
     params['form'] = formset
     params['caps_mode'] = True
           
-    return render_to_response('update.html', params)
+    return render_to_response('update.html', params, context_instance=RequestContext(request))
 
 @user_passes_test(lambda u: u.is_staff, login_url='/hts/admin/')
 def pending_updates(request):

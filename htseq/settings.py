@@ -84,8 +84,6 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'htseq.urls'
 
-print ROOT_DIRECTORY
-
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
@@ -123,8 +121,8 @@ CACHES = {
 GEOIP_DATA = ROOT_DIRECTORY + '/htseq/geoip/GeoIP.dat'
 
 # Parse database configuration from $DATABASE_URL
-import dj_database_url
-DATABASES['default'] =  dj_database_url.config()
+#import dj_database_url
+#DATABASES['default'] =  dj_database_url.config()
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
